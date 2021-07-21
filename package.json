@@ -1,0 +1,46 @@
+{
+  "name": "assignment",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.0.0-nightly.389",
+    "react": "^17.0.2",
+    "react-debounce-input": "^3.2.4",
+    "react-dom": "^17.0.2",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-masonry-component": "^6.3.0",
+    "react-modal": "^3.14.3",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "build": "parcel build ./public/index.html --dist-dir dist",
+    "start": "parcel serve ./public/index.html",
+    "deploy": "gh-pages -d dist",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

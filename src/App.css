@@ -1,0 +1,13 @@
+.image_list {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.image_list:hover {
+  transform: scale(1.05);
+}
+
+.image_preview {
+  object-fit: contain;
+}
